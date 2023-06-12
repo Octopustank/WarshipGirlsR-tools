@@ -12,6 +12,8 @@ Therefore, we present to you a Python program that can switch the lock screen wa
 * It runs on Termux, a terminal emulator application for Android OS extendible by variety of packages. 运行于Termux
 ##### #Attention 注意
 Please note that in this program, we use the Chinese lunar calendar to calculate seasons, so if you are in the southern hemisphere, the seasons will be reversed.  使用农历，只适用于北半球
+### Preview 预览
+![1](https://github.com/Octopustank/WarshipGirlsR-tools/assets/113182591/6be832aa-dafd-4e92-9acb-1eda594315ed)
 ### Installation 安装
 1. Install Termux <https://github.com/termux/termux-app> and Termux-api <https://github.com/termux/termux-api>. 安装Termux以及Termux-api  
 2. Use the command `termux-setup-storage` to grant storage permissions. 获取存储权限  
