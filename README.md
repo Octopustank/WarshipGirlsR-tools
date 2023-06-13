@@ -23,7 +23,8 @@ Please note that in this program, we use the Chinese lunar calendar to calculate
 6. Use `python LSWS-WSGR.py` to run the program. 运行  
 #if you want the program to run throughout the day, you can adjust Termux's power scheme to "allow background activity" in the phone settings and turn on "ACQUIRE WAKELOCK" in Termux. 如果要全天运行，请给Termux打开允许后台活动，并在通知栏Termux打开ACQUIRE WAKELOCK
 ### A problem 一个问题
-If the program requests GPS but fails to get a response in time, it will get stuck until you type Ctrl+C to terminate it. Therefore, you may need to keep the GPS on your phone turned on. 如果没及时获取到定位，进程会被阻塞。
+If the program requests GPS but fails to get a response in time, it will get stuck until you type Ctrl+C to terminate it. 如果没及时获取到定位，进程会被阻塞，除非你Ctrl+C终止请求才会继续进程。  
+Therefore, you may need to keep the GPS on your phone turned on. 所以你可能需要一直开启手机位置信息
 # Tool-2: Resource Downloader 资源下载器
 WarshipGirlsRwiki 舰R百科 <https://www.zjsnrwiki.com/> is a website that provides all kinds of information about the game Warship Girls R.  
 Here's a Python program that enables you to easily download resources from this website.  
