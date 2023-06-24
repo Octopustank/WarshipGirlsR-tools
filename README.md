@@ -37,3 +37,4 @@ When detecting images related to the port, the program may be verrry slooooow. Y
 ### Requiry 库需求
 * requests  
 * BeautifulSoup
+* lxml
