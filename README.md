@@ -25,7 +25,20 @@ Please note that in this program, we use the Chinese lunar calendar to calculate
 ### A problem 一个问题
 If the program requests GPS but fails to get a response in time, it will get stuck until you type Ctrl+C to terminate it. 如果没及时获取到定位，进程会被阻塞，除非你Ctrl+C终止请求才会继续进程。  
 Therefore, you may need to keep the GPS on your phone turned on. 所以你可能需要一直开启手机位置信息
-# Tool-2: Resource Downloader 资源下载器
+# Tool-2: Wallpaper Switcher (for Windows) 壁纸切换器
+As we all know, the port in Warship Girls can change from day to night and from spring to autumn.   
+众所周知，你游港区有昼夜季节变化。  
+Therefore, we present to you a Python program that can switch the lock screen wallpaper on your Windows computer based on this changing scenery!  
+这就是一个小玩意让你Windows电脑界面同样如此！
+##### Based on Lock Screen Wallpaper Switcher 基于 锁屏壁纸切换器
+### Features 功能
+* It enables the automatic switching of your lock screen wallpaper based on season and time of day. 自动根据季节、天色换壁纸  
+* It uses location&timezone to accurately calculate time periods. 使用位置和时区来计算时间段  
+##### #Attention 注意
+Please note that in this program, we use the Chinese lunar calendar to calculate seasons, so if you are in the southern hemisphere, the seasons will be reversed.  使用农历，只适用于北半球
+### Further Development 发展
+I'm considering add more UI in it.May be it can comes out soon. Maybe... :)
+# Tool-3: Resource Downloader 资源下载器
 WarshipGirlsRwiki 舰R百科 <https://www.zjsnrwiki.com/> is a website that provides all kinds of information about the game Warship Girls R.  
 Here's a Python program that enables you to easily download resources from this website.  
 这是一个小玩意让资源下载更加方便
