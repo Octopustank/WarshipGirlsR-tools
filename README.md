@@ -35,7 +35,8 @@ Therefore, we present to you a Python program that can switch the lock screen wa
 * It enables the automatic switching of your lock screen wallpaper based on season and time of day. 自动根据季节、天色换壁纸  
 * It uses location&timezone to accurately calculate time periods. 使用位置和时区来计算时间段  
 ##### #Attention 注意
-Please note that in this program, we use the Chinese lunar calendar to calculate seasons, so if you are in the southern hemisphere, the seasons will be reversed.  使用农历，只适用于北半球
+Please note that in this program, we use the Chinese lunar calendar to calculate seasons, so if you are in the southern hemisphere, the seasons will be reversed.  使用农历，只适用于北半球  
+Only available for stretch mode  壁纸只能拉伸设置
 ### Further Development 发展
 I'm considering add more UI in it.May be it can comes out soon. Maybe... :)
 # Tool-3: Resource Downloader 资源下载器
